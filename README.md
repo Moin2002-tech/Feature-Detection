@@ -1,20 +1,20 @@
 # Feature-Detection
 
-#Requirements
+# Requirements
 Windows 10 or Windows 11
 
 Visual Studio Community 2022 C++
 
 VCPKG (Package Manager)
 
-#Required External Libraries
+# Required External Libraries
 opencv:x64-windows (dynamic)
 
 boost:x64-windows (dynamic)
 
 matio:x64-windows (dynamic, for MATLAB manipulation)
 
-#VCPKG Installation Process
+# VCPKG Installation Process
 Open a terminal (PowerShell or Command Prompt).
 
 Clone the vcpkg repository from GitHub:
@@ -30,7 +30,7 @@ cd vcpkg
 sh
 .\bootstrap-vcpkg.bat
 
-#Integrate vcpkg with Visual Studio:
+# Integrate vcpkg with Visual Studio:
 sh
 .\vcpkg integrate install
 This command sets up user-wide integration, making it easier to use vcpkg with Visual Studio projects.
