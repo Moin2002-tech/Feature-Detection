@@ -69,3 +69,7 @@ Then, click on Package Manager Console.
 
 Copy the quoted command and paste it into the NuGet Package Manager Console in Visual Studio. You're now ready to run all files.
 
+# Prebuild binaries
+ this prebuild Binaries Just Extract it and integrate it but it does not have ``matio`` so install using following above command
+https://16sxj-my.sharepoint.com/:u:/g/personal/shaikh_moin12_16sxj_onmicrosoft_com/EbROfwKln7FCrL3lAoEqHSoBpeBnQLrQOSblFhJ2BMWymw?e=u1p38a
+
