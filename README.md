@@ -14,7 +14,7 @@ boost:x64-windows (dynamic)
 
 matio:x64-windows (dynamic, for MATLAB manipulation)
 
-hivefive::x64-windows (dynamic, hdf5 file manipulation)
+highfive::x64-windows (dynamic, hdf5 file manipulation)
 
 # VCPKG Installation Process
 Open a terminal (PowerShell or Command Prompt).
@@ -50,6 +50,7 @@ sh
 .\vcpkg install boost:x64-windows
 .\vcpkg install opencv:x64-windows
 .\vcpkg install matio:x64-windows
+.\vcpkg install highfive:x64-windows
 Final Integration
 After installing the libraries, run this command:
 
@@ -71,6 +72,6 @@ Then, click on Package Manager Console.
 
 Copy the quoted command and paste it into the NuGet Package Manager Console in Visual Studio. You're now ready to run all files.
 
-# Prebuild binaries
- this prebuild Binaries Just Extract it and integrate it but it does not have ``matio`` so install using following above command
+# Prebuild binaries of External libraries
+ this prebuild Binaries Just Extract it and integrate it but it does not have ``matio``,``highfive`` so install using following above command
 https://16sxj-my.sharepoint.com/:u:/g/personal/shaikh_moin12_16sxj_onmicrosoft_com/EbROfwKln7FCrL3lAoEqHSoBx-EJ3a7nVgRBL-bjrgy6kA?e=SMpjwE
