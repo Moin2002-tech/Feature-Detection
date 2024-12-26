@@ -14,6 +14,8 @@ boost:x64-windows (dynamic)
 
 matio:x64-windows (dynamic, for MATLAB manipulation)
 
+hivefive::x64-windows (dynamic, hdf5 file manipulation)
+
 # VCPKG Installation Process
 Open a terminal (PowerShell or Command Prompt).
 
